@@ -3,6 +3,10 @@
 namespace Faker\Extension;
 
 /**
+ * FakerPHP extension for Date-related randomization.
+ *
+ * Functions accepting a date string use the `strtotime()` function internally.
+ *
  * @experimental
  *
  * @since 1.20.0
