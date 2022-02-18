@@ -2,12 +2,10 @@
 
 namespace Faker\Extension;
 
-use DateTime;
-
 /**
  * @experimental
  *
- * @since 1.19.0
+ * @since 1.20.0
  */
 interface DateTimeExtension
 {

@@ -10,7 +10,7 @@ use Faker\Extension\Helper;
 /**
  * @experimental
  *
- * @since 1.19.0
+ * @since 1.20.0
  */
 final class DateTime implements DateTimeExtension, GeneratorAwareExtension
 {
