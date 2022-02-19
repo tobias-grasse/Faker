@@ -2,7 +2,7 @@
 
 namespace Faker;
 
-use Psr\Container\ContainerInterface;
+use Faker\Container\ContainerInterface;
 
 /**
  * @property string $citySuffix

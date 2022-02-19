@@ -5,10 +5,10 @@ declare(strict_types=1);
 namespace Faker\Test\Extension;
 
 use Faker\Container\ContainerBuilder;
+use Faker\Container\ContainerInterface;
 use Faker\Core\File;
 use Faker\Extension\Extension;
 use PHPUnit\Framework\TestCase;
-use Psr\Container\ContainerInterface;
 
 /**
  * @covers \Faker\Container\ContainerBuilder
