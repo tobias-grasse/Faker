@@ -126,7 +126,7 @@ class Address extends \Faker\Provider\Address
     
     /**
      * Coordinates inside the border of Germany.
-     * Reference: https://de.wikipedia.org/wiki/Liste_der_Extrempunkte_Deutschlands
+     * @see https://de.wikipedia.org/wiki/Liste_der_Extrempunkte_Deutschlands
      *
      * @example array('51.48239', '11.96994')
      *
