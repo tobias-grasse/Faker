@@ -123,4 +123,20 @@ class Address extends \Faker\Provider\Address
     {
         return static::regexify(self::numerify(static::randomElement(static::$buildingNumber)));
     }
+    
+    /**
+     * Coordinates inside the border of Germany.
+     * Reference: https://de.wikipedia.org/wiki/Liste_der_Extrempunkte_Deutschlands
+     *
+     * @example array('51.48239', '11.96994')
+     *
+     * @return array | latitude, longitude
+     */
+    public static function localCoordinates()
+    {
+        return [
+            'latitude' => static::latitude(47.271679, 54.91131),
+            'longitude' => static::longitude(5.866944, 15.04193),
+        ];
+    }
 }
