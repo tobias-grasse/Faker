@@ -130,7 +130,7 @@ class Address extends \Faker\Provider\Address
      *
      * @example array('51.48239', '11.96994')
      *
-     * @return array | latitude, longitude
+     * @return array<string, float>
      */
     public static function localCoordinates()
     {
