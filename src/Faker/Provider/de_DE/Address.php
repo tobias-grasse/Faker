@@ -123,7 +123,7 @@ class Address extends \Faker\Provider\Address
     {
         return static::regexify(self::numerify(static::randomElement(static::$buildingNumber)));
     }
-    
+
     /**
      * Coordinates inside the border of Germany.
      *
