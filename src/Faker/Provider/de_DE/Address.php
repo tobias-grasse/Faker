@@ -126,11 +126,12 @@ class Address extends \Faker\Provider\Address
     
     /**
      * Coordinates inside the border of Germany.
+     *
+     * @return array<string, float>
+     *
      * @see https://de.wikipedia.org/wiki/Liste_der_Extrempunkte_Deutschlands
      *
      * @example array('51.48239', '11.96994')
-     *
-     * @return array<string, float>
      */
     public static function localCoordinates()
     {
